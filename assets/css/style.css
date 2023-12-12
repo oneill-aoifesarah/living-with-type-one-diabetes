@@ -21,7 +21,12 @@ body {
 
 /* Header */
 header {
-    background-color: aqua;
+    background-color: #c4e2e4;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #1c4e65;
 }
 
 h1 {
