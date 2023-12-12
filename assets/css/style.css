@@ -40,6 +40,19 @@ h1 {
     color: #333333;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #333333;
+}
 /* Main */
 main {
     background-color: blueviolet;
