@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
 /* Asterisk wildcard selector used to override the browsers' default styles */
 * {
     padding: 0;
@@ -12,8 +15,10 @@ body {
     flex-direction: column;
     /* Generic styles for the Project */
     color: #1c4e65;
+    font-family: 'Open Sans', sans-serif;
 
 }
+
 /* Header */
 header {
     background-color: aqua;
