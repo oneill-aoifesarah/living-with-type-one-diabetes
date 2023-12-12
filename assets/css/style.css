@@ -29,8 +29,15 @@ header {
     box-shadow: 0 2px 2px #1c4e65;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    color: #333333;
 }
 
 /* Main */
