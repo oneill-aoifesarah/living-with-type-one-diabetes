@@ -98,6 +98,7 @@ main {
     /* Top, Right, Bottom, Left */
     background-color: #f8e3d0;
     box-sizing: border-box;
+    letter-spacing: 2px;
 }
 
 /* Hero section */
