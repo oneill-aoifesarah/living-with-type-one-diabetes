@@ -239,6 +239,15 @@ main {
     margin: 20px;
 }
 
+#signup-form>h2 {
+    color: #000000;
+    background-color: #ffffff;
+    width: 100%;
+    text-align: center;
+    border-bottom: none;
+    padding: 5px;
+}
+
 /* Thank You Message Styles */
 #thank-you-message {
     color: #333333;
