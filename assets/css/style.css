@@ -103,6 +103,12 @@ main {
     border-radius: 10px;
 }
 
+.container p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* Add space below paragraphs */
+}
+
 /* Hero section */
 #hero {
     height: 350px;
