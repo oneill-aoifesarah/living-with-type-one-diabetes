@@ -66,7 +66,7 @@
             </form>
 
             <!-- Thank You Message -->
-            <div id="thank-you-message">Thanks for signing up for our Peer Support Groups!</div>
+            <div id="thank-you-message">Thanks for signing up to our Peer Support Groups!</div>
     </section>
 </main>
     <!-- Footer -->
@@ -97,6 +97,23 @@
 
     <!-- Font Awesome kit-->
     <script src="https://kit.fontawesome.com/b19c575552.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript to show thank you message -->
+    <script>
+        function submitForm() {
+            // Perform any additional form submission logic if needed
+
+            // Display thank-you message
+            document.getElementById('thank-you-message').style.display = 'block';
+
+            // Optional: Disable the form elements after submission
+            document.getElementById('firstname').disabled = true;
+            document.getElementById('lastname').disabled = true;
+            document.getElementById('email').disabled = true;
+            document.getElementById('signup-form').querySelector('button').disabled = true;
+        }
+    </script>
+
 </body>
 
 </html>
