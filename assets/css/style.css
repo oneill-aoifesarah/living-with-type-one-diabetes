@@ -100,6 +100,12 @@ main {
     background-color: #c4e2e4;
 }
 
+#social-media i {
+    font-size: 130%;
+    padding: 5%;
+    color: #333333;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
