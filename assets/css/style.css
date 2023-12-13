@@ -91,8 +91,13 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: chartreuse;
+#social-media {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: #c4e2e4;
 }
 
 /* Media query: tablets and larger (768px and up) */
