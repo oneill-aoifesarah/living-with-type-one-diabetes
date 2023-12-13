@@ -72,7 +72,7 @@
                 <h3>Cork Peer Support Group</h3>
                 <p>The Metropole Hotel</p>
                 <p>MacCurtain Street, Cork City</p>
-                <p>Monday, 2nd October</p>
+                <p>Monday, 18th December</p>
                 <p>20:00</p>
                 </div>
             </section>
@@ -81,7 +81,7 @@
                     <h3>Dublin Peer Support Group</h3>
                     <p>Ashling Hotel Dublin</p>
                     <p>Stoneybatter, Dublin City</p>
-                    <p>Wednesday, 4th October</p>
+                    <p>Wednesday, 20th December</p>
                     <p>20;00</p>
                 </div>
             </section>
@@ -90,11 +90,28 @@
                     <h3>Galway Peer Support Group</h3>
                     <p>Galway Bay Hotel</p>
                     <p>Salthill, Galway City</p>
-                    <p>Friday, 6th October</p>
+                    <p>Friday, 22nd December</p>
                     <p>20:00</p>
                 </div>
             </section>
 </main>
+
+<!-- JavaScript to show thank you message -->
+<script>
+    function submitForm() {
+        // Perform any additional form submission logic if needed
+
+        // Display thank-you message
+        document.getElementById('thank-you-message').style.display = 'block';
+
+        // Optional: Disable the form elements after submission
+        document.getElementById('firstname').disabled = true;
+        document.getElementById('lastname').disabled = true;
+        document.getElementById('email').disabled = true;
+        document.getElementById('signup-form').querySelector('button').disabled = true;
+    }
+</script>
+
     <!-- Footer -->
     <footer>
         <ul id="social-media">
@@ -123,22 +140,6 @@
 
     <!-- Font Awesome kit-->
     <script src="https://kit.fontawesome.com/b19c575552.js" crossorigin="anonymous"></script>
-
-    <!-- JavaScript to show thank you message -->
-    <script>
-        function submitForm() {
-            // Perform any additional form submission logic if needed
-
-            // Display thank-you message
-            document.getElementById('thank-you-message').style.display = 'block';
-
-            // Optional: Disable the form elements after submission
-            document.getElementById('firstname').disabled = true;
-            document.getElementById('lastname').disabled = true;
-            document.getElementById('email').disabled = true;
-            document.getElementById('signup-form').querySelector('button').disabled = true;
-        }
-    </script>
 
 </body>
 
