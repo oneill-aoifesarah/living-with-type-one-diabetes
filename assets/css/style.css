@@ -84,10 +84,17 @@ nav {
 
 /* Main */
 main {
-    background-color: blueviolet;
+    background-color: #f2d5da;
     /* Make main element take up excess space to push footer down */
     flex: 1 0 auto;
     margin-top: 79px;
+}
+
+/* Hero section */
+#hero {
+    height: 350px;
+    width: 100%;
+    background: url("../images/supportgroup.webp") no-repeat center/cover;
 }
 
 /* Footer */
