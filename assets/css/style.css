@@ -99,6 +99,8 @@ main {
     background-color: #f8e3d0;
     box-sizing: border-box;
     letter-spacing: 2px;
+    /* Add border radius to curve corners of container */
+    border-radius: 10px;
 }
 
 /* Hero section */
