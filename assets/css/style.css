@@ -35,7 +35,7 @@ h2 {
 h3 {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
-    color: #ababf3;
+    color: #7777ff;
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 8px;
@@ -112,7 +112,7 @@ main {
     margin: 20px auto;
     padding: 20px 20px 10px 20px;
     /* Top, Right, Bottom, Left */
-    background-color: #f8e3d0;
+    background-color: #f9efe7;
     box-sizing: border-box;
     letter-spacing: 2px;
     /* Add border radius to curve corners of container */
@@ -260,9 +260,9 @@ main {
     }
 
     /* Adjust the margin-top for the signup form */
-     #signup-form {
+    #signup-form {
         margin-top: 20px;
-        }
+    }
 }
 
 /* Support Page */

@@ -1,145 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for search engines -->
-    <meta name="description"
-        content="Living With Type 1 Diabetes. Information for Type 1 Diabetes. Advice for Type 1 Diabetes. Support for Type 1 Diabetes">
-    <meta name="keywords"
-        content="Type 1 Diabetes, blood glucose monitoring, blood sugar, insulin, diabetes, autoimmune condition, chronic disease">
+    <meta
+      name="description"
+      content="Living With Type 1 Diabetes. Information for Type 1 Diabetes. Advice for Type 1 Diabetes. Support for Type 1 Diabetes"
+    >
+    <meta
+      name="keywords"
+      content="Type 1 Diabetes, blood glucose monitoring, blood sugar, insulin, diabetes, autoimmune condition, chronic disease"
+    >
     <!-- Title -->
     <title>Living With Type One Diabetes</title>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    >
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    >
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Living with Type 1 Diabetes</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="advice.html">Advice</a>
-                </li>
-                <li>
-                    <a href="support.html" class="active">Support</a>
-                </li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <h1 id="logo">Living with Type 1 Diabetes</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="advice.html">Advice</a>
+          </li>
+          <li>
+            <a href="support.html" class="active">Support</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- Main Content --> 
+    <!-- Main Content -->
     <main>
-        <br>
-        <section id="signup">
-            <form id="signup-form">
-                <h2>Peer Support Groups</h2>
-                <label for="firstname">First Name:</label>
-                <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" required>
-                <br>
-                <label for="lastname">Last Name:</label>
-                <input type="text" id="lastname" name="lastname" placeholder="Enter Last Name" required>
-                <br>
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" placeholder="Enter Email Address" required>
-                <br>
-                <button type="button" onclick="submitForm()" class="button">Sign-up</button>
-                <br>
-            </form>
-        </section>
-            <!-- Thank You Message -->
-            <div id="thank-you-message">Thanks for signing up to our Peer Support Groups!</div>
-            <section class="container centered-container">
-                <div class="Cork">
-                <h3>Cork Peer Support Group</h3>
-                <p>The Metropole Hotel</p>
-                <p>MacCurtain Street, Cork City</p>
-                <p>Monday, 18th December</p>
-                <p>20:00</p>
-                </div>
-            </section>
-            <section class="container centered-container">
-                <div class="dublin">
-                    <h3>Dublin Peer Support Group</h3>
-                    <p>Ashling Hotel Dublin</p>
-                    <p>Stoneybatter, Dublin City</p>
-                    <p>Wednesday, 20th December</p>
-                    <p>20:00</p>
-                </div>
-            </section>
-            <section class="container centered-container">
-                <div class="galway">
-                    <h3>Galway Peer Support Group</h3>
-                    <p>Galway Bay Hotel</p>
-                    <p>Salthill, Galway City</p>
-                    <p>Friday, 22nd December</p>
-                    <p>20:00</p>
-                </div>
-            </section>
+      <br>
+      <section id="signup">
+        <form id="signup-form">
+          <h2>Peer Support Groups</h2>
+          <label for="firstname">First Name:</label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="Enter First Name"
+            required
+          >
+          <br>
+          <label for="lastname">Last Name:</label>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            placeholder="Enter Last Name"
+            required
+          >
+          <br>
+          <label for="email">Email Address:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Email Address"
+            required
+          >
+          <br>
+          <button type="button" onclick="submitForm()" class="button">
+            Sign-up
+          </button>
+          <br>
+        </form>
+      </section>
+      <!-- Thank You Message -->
+      <div id="thank-you-message">
+        Thanks for signing up to our Peer Support Groups!
+      </div>
+      <section class="container centered-container">
+        <div class="Cork">
+          <h3>Cork Peer Support Group</h3>
+          <p>The Metropole Hotel</p>
+          <p>MacCurtain Street, Cork City</p>
+          <p>Monday, 18th December</p>
+          <p>20:00</p>
+        </div>
+      </section>
+      <section class="container centered-container">
+        <div class="dublin">
+          <h3>Dublin Peer Support Group</h3>
+          <p>Ashling Hotel Dublin</p>
+          <p>Stoneybatter, Dublin City</p>
+          <p>Wednesday, 20th December</p>
+          <p>20:00</p>
+        </div>
+      </section>
+      <section class="container centered-container">
+        <div class="galway">
+          <h3>Galway Peer Support Group</h3>
+          <p>Galway Bay Hotel</p>
+          <p>Salthill, Galway City</p>
+          <p>Friday, 22nd December</p>
+          <p>20:00</p>
+        </div>
+      </section>
     </main>
-    
+
     <!-- JavaScript to show thank you message -->
     <script>
-    function submitForm() {
+      function submitForm() {
         // Perform any additional form submission logic if needed
 
         // Display thank-you message
-        document.getElementById('thank-you-message').style.display = 'block';
+        document.getElementById("thank-you-message").style.display = "block";
 
         // Optional: Disable the form elements after submission
-        document.getElementById('firstname').disabled = true;
-        document.getElementById('lastname').disabled = true;
-        document.getElementById('email').disabled = true;
-        document.getElementById('signup-form').querySelector('button').disabled = true;
-    }
+        document.getElementById("firstname").disabled = true;
+        document.getElementById("lastname").disabled = true;
+        document.getElementById("email").disabled = true;
+        document
+          .getElementById("signup-form")
+          .querySelector("button").disabled = true;
+      }
     </script>
 
     <!-- Footer -->
     <footer>
-        <ul id="social-media">
-            <li>
-                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)">
-                    <i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li>
-                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)">
-                    <i class="fa-brands fa-twitter-square"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)">
-                    <i class="fa-brands fa-youtube-square"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)">
-                    <i class="fa-brands fa-instagram"></i></a>
-            </li>
-        </ul>
+      <ul id="social-media">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-twitter-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our YouTube page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-youtube-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in a new tab)"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
 
     <!-- Font Awesome kit-->
-    <script src="https://kit.fontawesome.com/b19c575552.js" crossorigin="anonymous"></script>
-
-</body>
-
+    <script
+      src="https://kit.fontawesome.com/b19c575552.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
