@@ -134,6 +134,17 @@ main {
     margin-bottom: 10px;
 }
 
+/* Add this CSS for centered containers */
+.centered-container {
+    text-align: center;
+}
+
+/* Add the new class to center the content in specific containers */
+.container.centered-container {
+    margin: 20px auto;
+    text-align: center;
+}
+
 /* Adjust the map container */
 .map-container {
     max-width: 100%;
@@ -252,7 +263,7 @@ main {
 /* Support Page */
 /* styles and formats for background image and form layout*/
 #signup-form {
-    color: #333333;
+    color: #000000;
     background-image: url("../images/background-support.webp");
     background-size: cover;
     background-repeat: no-repeat;
@@ -274,12 +285,45 @@ main {
     margin-top: -20px;
 }
 
+#signup-form label {
+    font-weight: bold;
+}
+
 #signup-form>h2 {
     color: #000000;
     background-color: #ffffff;
     width: 100%;
     text-align: center;
     border-bottom: none;
+    padding: 5px;
+}
+
+input {
+    color: #000000;
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+input[type="text"],
+[type="email"] {
+    border: solid #c4e2e4;
+    color: #000000;
+    width: 55%;
+    margin: auto;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* format for the submit button of the form */
+button {
+    border: solid #c4e2e4;
+    background-color: #2968dc;
+    color: #ffffff;
+    display: inline-block;
+    width: 55%;
     padding: 5px;
 }
 
