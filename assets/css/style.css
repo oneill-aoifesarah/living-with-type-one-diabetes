@@ -16,7 +16,6 @@ body {
     /* Generic styles for the Project */
     color: #1c4e65;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 /* Header */
@@ -111,6 +110,34 @@ main {
     font-size: 130%;
     padding: 5%;
     color: #333333;
+}
+
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f3d2c9;
+    border: 1px solid #f3d2c9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h3 {
+    color: #333333;
+}
+
+.container p {
+    line-height: 1.6;
+}
+
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container li {
+    margin-bottom: 8px;
 }
 
 /* Media query: tablets and larger (768px and up) */
