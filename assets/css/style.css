@@ -18,6 +18,31 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    color: #333333;
+    font-size: 2em;
+    /* Adjust the font size as needed */
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    color: #333333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    color: #ababf3;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
 /* Header */
 header {
     background-color: #c4e2e4;
@@ -34,12 +59,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px;
-    color: #333333;
 }
 
 #menu {
